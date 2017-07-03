@@ -1,0 +1,44 @@
+.post{
+	margin: 20px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+	padding:50px;
+	position: relative;
+}
+.post__photo{
+	width:400px;
+	height:300px;
+	border:3px solid #5370fb;
+	display:inline-block;
+	vertical-align: top;
+	overflow: hidden;
+	.wrapPhoto{
+		width:100%;
+		height:100%;
+		display:flex;
+		img{
+			margin: auto;
+			max-width:400px;
+			max-height:300px;
+		}
+	}
+}
+.post__content{
+	display:inline-block;
+	vertical-align: top;
+	width:500px;
+	margin-left:50px;
+	height:300px;
+}
+.post__text{
+	height:240px;
+	overflow: hidden;
+}
+.post__date{
+	text-align:right
+}
+.post__delete{
+	position: absolute;
+	top:30px;
+	right:30px;
+	cursor:pointer;
+}
